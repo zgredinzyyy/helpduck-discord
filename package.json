@@ -1,0 +1,18 @@
+{
+  "name": "helpduck-discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "dev": "nodemon index.ts"
+  }
+}
